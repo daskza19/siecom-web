@@ -7,6 +7,7 @@ const props = defineProps({
   size: { type: String, default: 'md' }, // sm | md | lg
   to: { type: [String, Object], default: null },
   href: { type: String, default: null },
+  external: { type: Boolean, default: false }, // abre el enlace en otra pestaña
   block: { type: Boolean, default: false },
   type: { type: String, default: 'button' },
 })
@@ -19,7 +20,11 @@ const tag = computed(() => {
 
 const attrs = computed(() => {
   if (props.to) return { to: props.to }
-  if (props.href) return { href: props.href }
+  if (props.href) {
+    return props.external
+      ? { href: props.href, target: '_blank', rel: 'noopener noreferrer' }
+      : { href: props.href }
+  }
   return { type: props.type }
 })
 </script>

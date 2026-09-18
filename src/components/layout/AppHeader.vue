@@ -2,6 +2,7 @@
 import { ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { CATEGORIES } from '@/data/plans'
+import { CLIENT_AREA_URL } from '@/data/site'
 import { useDropdown } from '@/composables/useDropdown'
 import AppIcon from '@/components/ui/AppIcon.vue'
 import BaseButton from '@/components/ui/BaseButton.vue'
@@ -100,7 +101,13 @@ watch(isMobileMenuOpen, (open) => {
 
       <div class="header__actions">
         <LanguageSwitcher />
-        <BaseButton :to="{ name: 'clientAccess' }" variant="secondary" size="sm" class="header__login">
+        <BaseButton
+          :href="CLIENT_AREA_URL"
+          external
+          variant="secondary"
+          size="sm"
+          class="header__login"
+        >
           <AppIcon name="lock" :size="16" />
           {{ $t('nav.clientAccess') }}
         </BaseButton>
@@ -157,7 +164,7 @@ watch(isMobileMenuOpen, (open) => {
             {{ $t(link.labelKey) }}
           </RouterLink>
 
-          <BaseButton :to="{ name: 'clientAccess' }" variant="primary" block class="mobile-nav__cta">
+          <BaseButton :href="CLIENT_AREA_URL" external variant="primary" block class="mobile-nav__cta">
             <AppIcon name="lock" :size="18" />
             {{ $t('nav.clientAccess') }}
           </BaseButton>

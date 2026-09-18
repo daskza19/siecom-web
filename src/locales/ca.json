@@ -16,6 +16,7 @@
     "contact": "Contacta'ns",
     "callUs": "Truca'ns",
     "skipToContent": "Salta al contingut principal",
+    "backToTop": "Torna a dalt",
     "loading": "Carregant…"
   },
   "nav": {
@@ -61,9 +62,18 @@
       "cardPrice": "39,90",
       "cardFootnote": "Preu per sempre, no és promoció",
       "stats": {
-        "coverage": { "value": "98%", "label": "Cobertura 5G a Catalunya" },
-        "clients": { "value": "120.000", "label": "Clients connectats" },
-        "support": { "value": "< 2 min", "label": "Temps mitjà d'espera" }
+        "coverage": {
+          "value": "98%",
+          "label": "Cobertura 5G a Catalunya"
+        },
+        "clients": {
+          "value": "120.000",
+          "label": "Clients connectats"
+        },
+        "support": {
+          "value": "< 2 min",
+          "label": "Temps mitjà d'espera"
+        }
       }
     },
     "pricing": {
@@ -221,9 +231,18 @@
     },
     "statsTitle": "Empreses que ja confien en nosaltres",
     "stats": {
-      "clients": { "value": "3.200", "label": "Empreses clientes" },
-      "uptime": { "value": "99,9%", "label": "Disponibilitat garantida" },
-      "manager": { "value": "1", "label": "Gestor assignat per compte" }
+      "clients": {
+        "value": "3.200",
+        "label": "Empreses clientes"
+      },
+      "uptime": {
+        "value": "99,9%",
+        "label": "Disponibilitat garantida"
+      },
+      "manager": {
+        "value": "1",
+        "label": "Gestor assignat per compte"
+      }
     },
     "formTitle": "Parlem del teu projecte",
     "formSubtitle": "Deixa'ns les teves dades i t'escrivim en menys de 24 hores laborables.",
@@ -261,10 +280,26 @@
     },
     "timelineTitle": "El camí fins avui",
     "timeline": {
-      "y2009": { "year": "2009", "title": "Primers quilòmetres de fibra", "description": "Naixem a Girona com a instal·ladors locals de xarxa." },
-      "y2014": { "year": "2014", "title": "Xarxa mòbil pròpia", "description": "Llancem les primeres tarifes mòbils com a operador virtual." },
-      "y2019": { "year": "2019", "title": "10.000 empreses connectades", "description": "Obrim la divisió Siecom Empresa i el NOC 24/7." },
-      "y2024": { "year": "2024", "title": "Desplegament 5G", "description": "Arribem al 98% de cobertura 5G i estrenem Siecom TV." }
+      "y2009": {
+        "year": "2009",
+        "title": "Primers quilòmetres de fibra",
+        "description": "Naixem a Girona com a instal·ladors locals de xarxa."
+      },
+      "y2014": {
+        "year": "2014",
+        "title": "Xarxa mòbil pròpia",
+        "description": "Llancem les primeres tarifes mòbils com a operador virtual."
+      },
+      "y2019": {
+        "year": "2019",
+        "title": "10.000 empreses connectades",
+        "description": "Obrim la divisió Siecom Empresa i el NOC 24/7."
+      },
+      "y2024": {
+        "year": "2024",
+        "title": "Desplegament 5G",
+        "description": "Arribem al 98% de cobertura 5G i estrenem Siecom TV."
+      }
     },
     "teamTitle": "L'equip",
     "teamSubtitle": "Més de 300 persones entre atenció al client, xarxa i camp.",
@@ -287,9 +322,18 @@
     },
     "helpTitle": "Necessites ajuda?",
     "help": {
-      "invoices": { "title": "Les teves factures", "description": "Descarrega-les en PDF i consulta l'històric dels últims 24 mesos." },
-      "consumption": { "title": "Consum en temps real", "description": "Mira quantes dades has gastat i amplia el bo si et fa falta." },
-      "support": { "title": "Incidències", "description": "Obre un tiquet i segueix-ne l'estat des del teu mòbil." }
+      "invoices": {
+        "title": "Les teves factures",
+        "description": "Descarrega-les en PDF i consulta l'històric dels últims 24 mesos."
+      },
+      "consumption": {
+        "title": "Consum en temps real",
+        "description": "Mira quantes dades has gastat i amplia el bo si et fa falta."
+      },
+      "support": {
+        "title": "Incidències",
+        "description": "Obre un tiquet i segueix-ne l'estat des del teu mòbil."
+      }
     }
   },
   "footer": {

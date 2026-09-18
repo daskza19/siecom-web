@@ -1,6 +1,7 @@
 <script setup>
 import BrandLogo from './BrandLogo.vue'
 import LanguageSwitcher from '@/components/ui/LanguageSwitcher.vue'
+import { CLIENT_AREA_URL } from '@/data/site'
 
 const year = new Date().getFullYear()
 
@@ -26,7 +27,7 @@ const COLUMNS = [
   {
     titleKey: 'footer.supportTitle',
     links: [
-      { labelKey: 'nav.clientAccess', to: { name: 'clientAccess' } },
+      { labelKey: 'nav.clientAccess', href: CLIENT_AREA_URL },
       { labelKey: 'footer.links.help' },
       { labelKey: 'footer.links.status' },
       { labelKey: 'footer.links.contact' },
@@ -60,6 +61,15 @@ const COLUMNS = [
               <RouterLink v-if="link.to" :to="link.to" class="footer__link">
                 {{ $t(link.labelKey) }}
               </RouterLink>
+              <a
+                v-else-if="link.href"
+                :href="link.href"
+                class="footer__link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {{ $t(link.labelKey) }}
+              </a>
               <span v-else class="footer__link">{{ $t(link.labelKey) }}</span>
             </li>
           </ul>

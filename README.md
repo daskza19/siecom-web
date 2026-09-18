@@ -22,11 +22,13 @@ src/
 │  └─ main.css        ← importa las tres anteriores
 ├─ locales/           ← ca.json · es.json · en.json (TODOS los textos de la web)
 ├─ i18n/index.js      ← configuración de vue-i18n, idioma por defecto y persistencia
-├─ data/plans.js      ← catálogo de tarifas (solo datos: precio, orden, destacado)
+├─ data/
+│  ├─ plans.js        ← catálogo de tarifas (solo datos: precio, orden, destacado)
+│  └─ site.js         ← enlaces externos (portal de clientes)
 ├─ composables/       ← useDropdown (desplegables), usePrice (formato de precios)
 ├─ components/
 │  ├─ layout/         ← AppHeader (navbar + dropdown), AppFooter, BrandLogo
-│  ├─ ui/             ← BaseButton, PriceCard, LanguageSwitcher, AppIcon
+│  ├─ ui/             ← BaseButton, PriceCard, LanguageSwitcher, AppIcon, ScrollToTop
 │  └─ sections/       ← Hero, Pricing, Features, Cta
 ├─ views/             ← Home, Plans, Company, About, ClientAccess, NotFound
 └─ router/index.js
@@ -60,6 +62,9 @@ el redondeo de las tarjetas o el aire entre secciones es tocar una variable:
 --container-max: 1200px;
 ```
 
+La tipografía es **Geist**, que se carga desde Google Fonts en `index.html` y se
+aplica con `--font-family-base`. Cambiarla es tocar ese token y el `<link>`.
+
 Los componentes solo usan esas variables, nunca valores literales. Algunos tokens
 (`--padding-section`, `--container-padding`, `--header-height`) ya cambian de valor a
 partir de 768 px, así que el ajuste responsive del espaciado también es un único sitio.
@@ -71,6 +76,19 @@ features con sus parámetros. Los nombres y descripciones se resuelven por conve
 con las claves `plans.items.<id>.name` / `.tagline` y `plans.features.<key>`.
 `ANNUAL_DISCOUNT` controla el descuento del pago anual.
 
+## Acceso de clientes
+
+El botón **Accés client** (navbar, menú móvil y footer) no navega dentro de la web:
+abre el portal externo en una pestaña nueva. La URL está en
+[`src/data/site.js`](src/data/site.js), así que se cambia en un único sitio.
+
+```js
+export const CLIENT_AREA_URL = 'https://clientessiecom.ispgestion.com/site/login'
+```
+
+`BaseButton` acepta `external` para estos casos: añade `target="_blank"` y
+`rel="noopener noreferrer"`.
+
 ## Rutas
 
 | Ruta | Página |
@@ -79,7 +97,7 @@ con las claves `plans.items.<id>.name` / `.tagline` y `plans.features.<key>`.
 | `/plans/:category?` | Tarifas (`mobil`, `internet`, `fix`, o todas) |
 | `/empresa` | Siecom Empresa |
 | `/sobre-nosaltres` | Sobre nosotros |
-| `/acces-client` | Acceso cliente |
+| `/acces-client` | Login local (maqueta) — ya no se enlaza desde la navegación, que apunta al portal externo |
 
 Al ser rutas con `history` API, el hosting debe redirigir cualquier ruta a
 `index.html` (fallback SPA). En GitHub Pages eso se resuelve con el `404.html` que

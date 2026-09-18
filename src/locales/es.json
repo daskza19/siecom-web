@@ -16,6 +16,7 @@
     "contact": "Contáctanos",
     "callUs": "Llámanos",
     "skipToContent": "Saltar al contenido principal",
+    "backToTop": "Volver arriba",
     "loading": "Cargando…"
   },
   "nav": {
@@ -61,9 +62,18 @@
       "cardPrice": "39,90",
       "cardFootnote": "Precio para siempre, no es promoción",
       "stats": {
-        "coverage": { "value": "98%", "label": "Cobertura 5G en Cataluña" },
-        "clients": { "value": "120.000", "label": "Clientes conectados" },
-        "support": { "value": "< 2 min", "label": "Tiempo medio de espera" }
+        "coverage": {
+          "value": "98%",
+          "label": "Cobertura 5G en Cataluña"
+        },
+        "clients": {
+          "value": "120.000",
+          "label": "Clientes conectados"
+        },
+        "support": {
+          "value": "< 2 min",
+          "label": "Tiempo medio de espera"
+        }
       }
     },
     "pricing": {
@@ -221,9 +231,18 @@
     },
     "statsTitle": "Empresas que ya confían en nosotros",
     "stats": {
-      "clients": { "value": "3.200", "label": "Empresas clientes" },
-      "uptime": { "value": "99,9%", "label": "Disponibilidad garantizada" },
-      "manager": { "value": "1", "label": "Gestor asignado por cuenta" }
+      "clients": {
+        "value": "3.200",
+        "label": "Empresas clientes"
+      },
+      "uptime": {
+        "value": "99,9%",
+        "label": "Disponibilidad garantizada"
+      },
+      "manager": {
+        "value": "1",
+        "label": "Gestor asignado por cuenta"
+      }
     },
     "formTitle": "Hablemos de tu proyecto",
     "formSubtitle": "Déjanos tus datos y te escribimos en menos de 24 horas laborables.",
@@ -261,10 +280,26 @@
     },
     "timelineTitle": "El camino hasta hoy",
     "timeline": {
-      "y2009": { "year": "2009", "title": "Primeros kilómetros de fibra", "description": "Nacemos en Girona como instaladores locales de red." },
-      "y2014": { "year": "2014", "title": "Red móvil propia", "description": "Lanzamos las primeras tarifas móviles como operador virtual." },
-      "y2019": { "year": "2019", "title": "10.000 empresas conectadas", "description": "Abrimos la división Siecom Empresa y el NOC 24/7." },
-      "y2024": { "year": "2024", "title": "Despliegue 5G", "description": "Llegamos al 98% de cobertura 5G y estrenamos Siecom TV." }
+      "y2009": {
+        "year": "2009",
+        "title": "Primeros kilómetros de fibra",
+        "description": "Nacemos en Girona como instaladores locales de red."
+      },
+      "y2014": {
+        "year": "2014",
+        "title": "Red móvil propia",
+        "description": "Lanzamos las primeras tarifas móviles como operador virtual."
+      },
+      "y2019": {
+        "year": "2019",
+        "title": "10.000 empresas conectadas",
+        "description": "Abrimos la división Siecom Empresa y el NOC 24/7."
+      },
+      "y2024": {
+        "year": "2024",
+        "title": "Despliegue 5G",
+        "description": "Llegamos al 98% de cobertura 5G y estrenamos Siecom TV."
+      }
     },
     "teamTitle": "El equipo",
     "teamSubtitle": "Más de 300 personas entre atención al cliente, red y campo.",
@@ -287,9 +322,18 @@
     },
     "helpTitle": "¿Necesitas ayuda?",
     "help": {
-      "invoices": { "title": "Tus facturas", "description": "Descárgalas en PDF y consulta el histórico de los últimos 24 meses." },
-      "consumption": { "title": "Consumo en tiempo real", "description": "Mira cuántos datos has gastado y amplía el bono si te hace falta." },
-      "support": { "title": "Incidencias", "description": "Abre un ticket y sigue su estado desde tu móvil." }
+      "invoices": {
+        "title": "Tus facturas",
+        "description": "Descárgalas en PDF y consulta el histórico de los últimos 24 meses."
+      },
+      "consumption": {
+        "title": "Consumo en tiempo real",
+        "description": "Mira cuántos datos has gastado y amplía el bono si te hace falta."
+      },
+      "support": {
+        "title": "Incidencias",
+        "description": "Abre un ticket y sigue su estado desde tu móvil."
+      }
     }
   },
   "footer": {

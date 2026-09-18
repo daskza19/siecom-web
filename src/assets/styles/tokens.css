@@ -61,7 +61,7 @@
   --color-focus: var(--color-brand-400);
 
   /* ---------- Tipografía ---------- */
-  --font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-family-base: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   --font-family-heading: var(--font-family-base);
 
   --font-size-xs: 0.75rem;    /* 12 */
