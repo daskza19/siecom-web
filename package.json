@@ -1,0 +1,33 @@
+{
+  "name": "siecom-web",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "postbuild": "node -e \"require('fs').copyFileSync('dist/index.html','dist/404.html')\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daskza19/siecom-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daskza19/siecom-web/issues"
+  },
+  "homepage": "https://github.com/daskza19/siecom-web#readme",
+  "description": "",
+  "dependencies": {
+    "vue": "^3.5.43",
+    "vue-i18n": "^11.4.12",
+    "vue-router": "^5.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.9",
+    "vite": "^8.3.0"
+  },
+  "private": true,
+  "type": "module"
+}

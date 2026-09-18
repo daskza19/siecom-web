@@ -1,0 +1,154 @@
+/* =============================================================
+   DESIGN TOKENS
+   Punto único de configuración: cambia aquí y cambia toda la web.
+   ============================================================= */
+:root {
+  /* ---------- Paleta base ---------- */
+  --color-brand-50: #eef4ff;
+  --color-brand-100: #d9e5ff;
+  --color-brand-200: #b8cdff;
+  --color-brand-300: #8aabff;
+  --color-brand-400: #5a83fa;
+  --color-brand-500: #345ee8;
+  --color-brand-600: #2347c4;
+  --color-brand-700: #1b3799;
+  --color-brand-800: #16296e;
+  --color-brand-900: #101c4a;
+
+  --color-accent-300: #7ff0d4;
+  --color-accent-400: #34d8b0;
+  --color-accent-500: #12b892;
+  --color-accent-600: #0b8f71;
+
+  --color-neutral-0: #ffffff;
+  --color-neutral-50: #f7f8fb;
+  --color-neutral-100: #eef0f6;
+  --color-neutral-200: #e0e3ec;
+  --color-neutral-300: #c6ccda;
+  --color-neutral-400: #98a1b5;
+  --color-neutral-500: #6b7488;
+  --color-neutral-600: #4c5467;
+  --color-neutral-700: #353c4d;
+  --color-neutral-800: #222838;
+  --color-neutral-900: #131824;
+
+  --color-success: #12b892;
+  --color-warning: #f5a524;
+  --color-danger: #e5484d;
+
+  /* ---------- Roles semánticos ---------- */
+  --color-primary: var(--color-brand-600);
+  --color-primary-hover: var(--color-brand-700);
+  --color-primary-soft: var(--color-brand-50);
+  --color-on-primary: var(--color-neutral-0);
+
+  --color-accent: var(--color-accent-500);
+  --color-accent-soft: #e2fbf3;
+
+  --color-bg: var(--color-neutral-0);
+  --color-bg-subtle: var(--color-neutral-50);
+  --color-bg-inverse: var(--color-brand-900);
+  --color-surface: var(--color-neutral-0);
+  --color-surface-raised: var(--color-neutral-0);
+
+  --color-text: var(--color-neutral-900);
+  --color-text-muted: var(--color-neutral-500);
+  --color-text-inverse: var(--color-neutral-0);
+  --color-text-inverse-muted: #b6c2e4;
+
+  --color-border: var(--color-neutral-200);
+  --color-border-strong: var(--color-neutral-300);
+  --color-focus: var(--color-brand-400);
+
+  /* ---------- Tipografía ---------- */
+  --font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-family-heading: var(--font-family-base);
+
+  --font-size-xs: 0.75rem;    /* 12 */
+  --font-size-sm: 0.875rem;   /* 14 */
+  --font-size-md: 1rem;       /* 16 */
+  --font-size-lg: 1.125rem;   /* 18 */
+  --font-size-xl: 1.375rem;   /* 22 */
+  --font-size-2xl: 1.75rem;   /* 28 */
+  --font-size-3xl: 2.25rem;   /* 36 */
+  --font-size-4xl: clamp(2.25rem, 5vw, 3.5rem);
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --line-height-tight: 1.15;
+  --line-height-snug: 1.35;
+  --line-height-base: 1.6;
+
+  --letter-spacing-tight: -0.02em;
+  --letter-spacing-wide: 0.08em;
+
+  /* ---------- Espaciado (escala 4px) ---------- */
+  --space-0: 0;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 2.5rem;
+  --space-8: 3rem;
+  --space-9: 4rem;
+  --space-10: 5rem;
+  --space-11: 6rem;
+
+  /* Paddings compuestos reutilizables */
+  --padding-section: var(--space-10) 0;
+  --padding-card: var(--space-6);
+  --padding-button: 0.75rem 1.5rem;
+  --padding-input: 0.75rem 1rem;
+  --gap-grid: var(--space-5);
+
+  /* ---------- Radios ---------- */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 28px;
+  --radius-pill: 999px;
+  --radius-circle: 50%;
+
+  /* ---------- Sombras ---------- */
+  --shadow-xs: 0 1px 2px rgba(19, 24, 36, 0.06);
+  --shadow-sm: 0 2px 8px rgba(19, 24, 36, 0.07);
+  --shadow-md: 0 8px 24px rgba(19, 24, 36, 0.09);
+  --shadow-lg: 0 20px 48px rgba(19, 24, 36, 0.14);
+  --shadow-focus: 0 0 0 3px rgba(52, 94, 232, 0.35);
+
+  /* ---------- Bordes ---------- */
+  --border-width: 1px;
+  --border-base: var(--border-width) solid var(--color-border);
+
+  /* ---------- Layout ---------- */
+  --container-max: 1200px;
+  --container-narrow: 820px;
+  --container-padding: var(--space-4);
+  --header-height: 72px;
+
+  /* ---------- Movimiento ---------- */
+  --transition-fast: 120ms ease;
+  --transition-base: 200ms ease;
+  --transition-slow: 320ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* ---------- Capas ---------- */
+  --z-dropdown: 50;
+  --z-header: 100;
+  --z-overlay: 200;
+}
+
+/* Ajustes responsive de los propios tokens: un solo sitio para el "aire" */
+@media (min-width: 768px) {
+  :root {
+    --container-padding: var(--space-6);
+    --padding-section: var(--space-11) 0;
+    --padding-card: var(--space-7);
+    --header-height: 80px;
+  }
+}

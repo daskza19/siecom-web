@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "name": "English",
+    "shortName": "EN",
+    "htmlLang": "en"
+  },
+  "common": {
+    "brand": "Siecom",
+    "tagline": "Phone and internet with no small print",
+    "currency": "€",
+    "perMonth": "/mo",
+    "vatIncluded": "VAT included",
+    "from": "from",
+    "hire": "Get started",
+    "seePlans": "See plans",
+    "contact": "Contact us",
+    "callUs": "Call us",
+    "skipToContent": "Skip to main content",
+    "loading": "Loading…"
+  },
+  "nav": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNavigation": "Main navigation",
+    "plans": "Plans",
+    "plansIntro": "Pick what you need: mobile, fibre or landline. All with no lock-in.",
+    "company": "Business",
+    "about": "About us",
+    "clientAccess": "Client login",
+    "language": "Language",
+    "selectLanguage": "Select language"
+  },
+  "categories": {
+    "mobile": {
+      "label": "Mobile",
+      "short": "Mobile",
+      "description": "Unlimited calls and data on our 5G network."
+    },
+    "internet": {
+      "label": "Fibre internet",
+      "short": "Internet",
+      "description": "Symmetric fibre up to 1 Gb with a Wi-Fi 6 router."
+    },
+    "landline": {
+      "label": "Landline",
+      "short": "Landline",
+      "description": "Landline with virtual switchboard and your own number."
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "New 5G plan",
+      "title": "Connect everything with a single bill",
+      "titleAccent": "no lock-in",
+      "subtitle": "Symmetric fibre, unlimited mobile and landline with support from real people. Switch provider in 24 hours with no setup fees.",
+      "ctaPrimary": "See pricing",
+      "ctaSecondary": "Talk to us",
+      "note": "Free number porting · No lock-in · 24/7 support",
+      "cardTitle": "Your bundle",
+      "cardPlan": "600 Mb fibre + unlimited mobile",
+      "cardPrice": "39.90",
+      "cardFootnote": "Price for life, not an intro offer",
+      "stats": {
+        "coverage": { "value": "98%", "label": "5G coverage in Catalonia" },
+        "clients": { "value": "120,000", "label": "Connected customers" },
+        "support": { "value": "< 2 min", "label": "Average wait time" }
+      }
+    },
+    "pricing": {
+      "eyebrow": "Pricing",
+      "title": "Clear monthly fees, every month the same",
+      "subtitle": "No hidden costs and no yearly hikes. Pick a category and compare the plans.",
+      "billingMonthly": "Monthly billing",
+      "billingAnnual": "Annual billing",
+      "billingSaving": "Save {percent}%",
+      "popular": "Most popular",
+      "includes": "Includes",
+      "cta": "I want it",
+      "setupFee": "Free setup",
+      "noCommitment": "No lock-in",
+      "compare": "Compare all plans",
+      "helper": "All prices shown are {vat} and include equipment rental."
+    },
+    "features": {
+      "eyebrow": "Why Siecom",
+      "title": "A telco that does what it says",
+      "subtitle": "We keep it simple: stable pricing, short contracts and real people on the phone.",
+      "items": {
+        "price": {
+          "title": "Price for life",
+          "description": "What you sign up for is what you pay. No automatic increases, no offers that expire."
+        },
+        "support": {
+          "title": "Local support 24/7",
+          "description": "Our own technical team in Catalonia. No bots, no endless queues: we answer in under two minutes."
+        },
+        "network": {
+          "title": "Our own 5G network",
+          "description": "Symmetric fibre and 5G mobile coverage across 98% of the region, with 4G backup included."
+        },
+        "flexible": {
+          "title": "Full flexibility",
+          "description": "Upgrade, downgrade or cancel whenever you like from your account. No calls, no penalties."
+        }
+      }
+    },
+    "cta": {
+      "title": "We handle the switch for you",
+      "subtitle": "We take care of the number porting and of cancelling your current provider. You just pick the plan.",
+      "primary": "Get started",
+      "secondary": "Request a free call"
+    }
+  },
+  "plans": {
+    "page": {
+      "eyebrow": "Plans",
+      "title": "{category} plans",
+      "allTitle": "All plans",
+      "subtitle": "Compare the monthly fees and sign up online in under five minutes.",
+      "faqTitle": "Frequently asked questions",
+      "faq": {
+        "portability": {
+          "question": "How long does number porting take?",
+          "answer": "Between 24 and 48 working hours. You keep your number and you are never left without service."
+        },
+        "commitment": {
+          "question": "Is there a minimum term?",
+          "answer": "No. You can cancel whenever you want with no penalty and no cancellation fee."
+        },
+        "install": {
+          "question": "Who installs the fibre?",
+          "answer": "A Siecom technician, in a time slot you choose. Installation and router are free."
+        },
+        "change": {
+          "question": "Can I change plan later on?",
+          "answer": "Yes, from your account and effective on the next billing cycle. At no extra cost."
+        }
+      }
+    },
+    "features": {
+      "unlimitedCalls": "Unlimited calls",
+      "data": "{amount} of 5G data",
+      "dataShared": "Data shared across lines",
+      "roaming": "EU roaming included",
+      "esim": "eSIM available instantly",
+      "speed": "{speed} symmetric fibre",
+      "router": "Wi-Fi 6 router included",
+      "install": "Free installation and setup",
+      "ip": "Optional static IP",
+      "tv": "Siecom TV with 60 channels",
+      "landlineIncluded": "Landline included",
+      "minutes": "{amount} minutes to landlines and mobiles",
+      "switchboard": "Virtual switchboard",
+      "numbers": "Up to {amount} extensions",
+      "support": "Priority support 24/7",
+      "lines": "Up to {amount} mobile lines"
+    },
+    "items": {
+      "mobileStart": {
+        "name": "Mobile Start",
+        "tagline": "For people who use their phone without excess."
+      },
+      "mobileSmart": {
+        "name": "Mobile Smart",
+        "tagline": "The right balance of data and price for everyday use."
+      },
+      "mobileTotal": {
+        "name": "Mobile Total",
+        "tagline": "Unlimited data to work from anywhere."
+      },
+      "fiber300": {
+        "name": "Fibre 300",
+        "tagline": "Great for flats and occasional remote work."
+      },
+      "fiber600": {
+        "name": "Fibre 600",
+        "tagline": "Our most popular plan for connected families."
+      },
+      "fiber1000": {
+        "name": "Fibre 1 Gb",
+        "tagline": "Top speed for gaming and 4K streaming."
+      },
+      "fixBasic": {
+        "name": "Landline Basic",
+        "tagline": "The classic landline, with your own number."
+      },
+      "fixPro": {
+        "name": "Landline Pro",
+        "tagline": "Virtual switchboard for small businesses."
+      },
+      "fixBusiness": {
+        "name": "Landline Business",
+        "tagline": "Communications for teams that cannot stop."
+      }
+    }
+  },
+  "company": {
+    "eyebrow": "Siecom Business",
+    "title": "Connectivity for businesses that cannot stop",
+    "subtitle": "Dedicated fibre, cloud switchboard and mobile fleets with a named account manager and a written SLA.",
+    "cta": "Request a quote",
+    "secondaryCta": "Download the brochure",
+    "servicesTitle": "Business services",
+    "services": {
+      "dedicated": {
+        "title": "Dedicated fibre",
+        "description": "Guaranteed 1:1 bandwidth with a 99.9% availability SLA and priority support."
+      },
+      "fleet": {
+        "title": "Mobile fleets",
+        "description": "Unlimited lines with shared data, spend controls and one-click user onboarding."
+      },
+      "cloudPbx": {
+        "title": "Cloud switchboard",
+        "description": "Extensions, IVR, queues and call recording. Works at the office and remotely."
+      },
+      "security": {
+        "title": "Network and security",
+        "description": "SD-WAN, managed firewall and site-to-site VPN, monitored by our 24/7 NOC."
+      }
+    },
+    "statsTitle": "Businesses that already trust us",
+    "stats": {
+      "clients": { "value": "3,200", "label": "Business customers" },
+      "uptime": { "value": "99.9%", "label": "Guaranteed availability" },
+      "manager": { "value": "1", "label": "Account manager per client" }
+    },
+    "formTitle": "Let's talk about your project",
+    "formSubtitle": "Leave us your details and we will write back within 24 working hours.",
+    "form": {
+      "company": "Company",
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "employees": "Number of employees",
+      "message": "Tell us what you need",
+      "submit": "Send request",
+      "legal": "By sending this form you accept the privacy policy."
+    }
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "A local telco with a first-class network",
+    "subtitle": "We started in 2009 in Girona with a simple idea: give good service and explain things clearly.",
+    "storyTitle": "Our story",
+    "story": "We began laying fibre in villages no operator wanted to reach. Today we connect 120,000 homes and 3,200 businesses, but our commitment is the same: our own network, local support and prices that do not change once the offer ends.",
+    "valuesTitle": "Our values",
+    "values": {
+      "transparency": {
+        "title": "Transparency",
+        "description": "Final prices, two-page contracts and bills you understand the first time."
+      },
+      "proximity": {
+        "title": "Proximity",
+        "description": "Offices in Girona, Barcelona and Lleida, and technicians who know the area."
+      },
+      "commitment": {
+        "title": "Commitment",
+        "description": "We invest 20% of our profits in rolling out fibre in rural areas."
+      }
+    },
+    "timelineTitle": "How we got here",
+    "timeline": {
+      "y2009": { "year": "2009", "title": "First kilometres of fibre", "description": "Born in Girona as a local network installer." },
+      "y2014": { "year": "2014", "title": "Our own mobile network", "description": "We launch our first mobile plans as a virtual operator." },
+      "y2019": { "year": "2019", "title": "10,000 businesses connected", "description": "We open the Siecom Business division and the 24/7 NOC." },
+      "y2024": { "year": "2024", "title": "5G rollout", "description": "We reach 98% 5G coverage and launch Siecom TV." }
+    },
+    "teamTitle": "The team",
+    "teamSubtitle": "More than 300 people across customer care, network and field operations.",
+    "cta": "Work with us"
+  },
+  "clientAccess": {
+    "eyebrow": "Private area",
+    "title": "Client login",
+    "subtitle": "Check your bills and data usage, and manage your services.",
+    "form": {
+      "user": "Username or phone number",
+      "userPlaceholder": "600 000 000",
+      "password": "Password",
+      "passwordPlaceholder": "Your password",
+      "remember": "Keep me signed in",
+      "forgot": "Forgot your password?",
+      "submit": "Sign in",
+      "noAccount": "Don't have an account yet?",
+      "register": "Sign up"
+    },
+    "helpTitle": "Need a hand?",
+    "help": {
+      "invoices": { "title": "Your bills", "description": "Download them as PDF and browse the last 24 months." },
+      "consumption": { "title": "Real-time usage", "description": "See how much data you have used and top it up if you need to." },
+      "support": { "title": "Incidents", "description": "Open a ticket and follow its status from your phone." }
+    }
+  },
+  "footer": {
+    "description": "Fibre, mobile and landline operator with its own network and local support.",
+    "productsTitle": "Products",
+    "companyTitle": "Company",
+    "supportTitle": "Support",
+    "legalTitle": "Legal",
+    "links": {
+      "coverage": "Check coverage",
+      "offers": "Current offers",
+      "tv": "Siecom TV",
+      "work": "Work with us",
+      "press": "Press room",
+      "blog": "Blog",
+      "help": "Help centre",
+      "status": "Network status",
+      "contact": "Contact",
+      "privacy": "Privacy policy",
+      "terms": "Terms of service",
+      "cookies": "Cookies"
+    },
+    "rights": "© {year} Siecom Telecom S.L. All rights reserved.",
+    "madeIn": "Made in Catalonia"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "subtitle": "The link you followed does not exist or has moved.",
+    "cta": "Back to home"
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "name": "Català",
+    "shortName": "CA",
+    "htmlLang": "ca"
+  },
+  "common": {
+    "brand": "Siecom",
+    "tagline": "Telefonia i internet sense lletra petita",
+    "currency": "€",
+    "perMonth": "/mes",
+    "vatIncluded": "IVA inclòs",
+    "from": "des de",
+    "hire": "Contractar",
+    "seePlans": "Veure plans",
+    "contact": "Contacta'ns",
+    "callUs": "Truca'ns",
+    "skipToContent": "Salta al contingut principal",
+    "loading": "Carregant…"
+  },
+  "nav": {
+    "openMenu": "Obrir menú",
+    "closeMenu": "Tancar menú",
+    "mainNavigation": "Navegació principal",
+    "plans": "Plans",
+    "plansIntro": "Tria el que necessites: mòbil, fibra o fix. Tot sense permanència.",
+    "company": "Empresa",
+    "about": "Sobre nosaltres",
+    "clientAccess": "Accés client",
+    "language": "Idioma",
+    "selectLanguage": "Selecciona l'idioma"
+  },
+  "categories": {
+    "mobile": {
+      "label": "Telefonia mòbil",
+      "short": "Mòbil",
+      "description": "Dades i trucades il·limitades amb cobertura 5G."
+    },
+    "internet": {
+      "label": "Internet fibra",
+      "short": "Internet",
+      "description": "Fibra simètrica fins a 1 Gb amb router Wi-Fi 6."
+    },
+    "landline": {
+      "label": "Telefonia fixa",
+      "short": "Fix",
+      "description": "Línia fixa amb centraleta virtual i número propi."
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Nova tarifa 5G",
+      "title": "Connecta-ho tot amb una sola factura",
+      "titleAccent": "sense permanència",
+      "subtitle": "Fibra simètrica, mòbil il·limitat i telefonia fixa amb atenció al client de veritat. Canvia de companyia en 24 hores i sense costos d'alta.",
+      "ctaPrimary": "Veure preus",
+      "ctaSecondary": "Parla amb nosaltres",
+      "note": "Portabilitat gratuïta · Sense permanència · Suport 24/7",
+      "cardTitle": "El teu paquet",
+      "cardPlan": "Fibra 600 Mb + Mòbil il·limitat",
+      "cardPrice": "39,90",
+      "cardFootnote": "Preu per sempre, no és promoció",
+      "stats": {
+        "coverage": { "value": "98%", "label": "Cobertura 5G a Catalunya" },
+        "clients": { "value": "120.000", "label": "Clients connectats" },
+        "support": { "value": "< 2 min", "label": "Temps mitjà d'espera" }
+      }
+    },
+    "pricing": {
+      "eyebrow": "Tarifes",
+      "title": "Quotes clares, cada mes igual",
+      "subtitle": "Sense costos ocults ni pujades a l'any. Tria la categoria i compara les quotes.",
+      "billingMonthly": "Pagament mensual",
+      "billingAnnual": "Pagament anual",
+      "billingSaving": "Estalvia un {percent}%",
+      "popular": "El més contractat",
+      "includes": "Inclou",
+      "cta": "El vull",
+      "setupFee": "Alta gratuïta",
+      "noCommitment": "Sense permanència",
+      "compare": "Compara totes les tarifes",
+      "helper": "Tots els preus mostrats són {vat} i inclouen el lloguer d'equips."
+    },
+    "features": {
+      "eyebrow": "Per què Siecom",
+      "title": "Una companyia que fa el que diu",
+      "subtitle": "Fem les coses simples: preu estable, contractes curts i persones a l'altra banda del telèfon.",
+      "items": {
+        "price": {
+          "title": "Preu per sempre",
+          "description": "El que contractes és el que pagues. No apliquem pujades automàtiques ni promocions que caduquen."
+        },
+        "support": {
+          "title": "Suport local 24/7",
+          "description": "Equip tècnic propi a Catalunya. Sense robots ni cues interminables: responem en menys de dos minuts."
+        },
+        "network": {
+          "title": "Xarxa pròpia i 5G",
+          "description": "Fibra simètrica i cobertura mòbil 5G al 98% del territori, amb backup 4G inclòs."
+        },
+        "flexible": {
+          "title": "Flexibilitat total",
+          "description": "Puja, baixa o cancel·la el teu pla quan vulguis des de l'àrea de client. Sense trucades ni penalitzacions."
+        }
+      }
+    },
+    "cta": {
+      "title": "Fem el canvi per tu",
+      "subtitle": "Ens encarreguem de la portabilitat i de donar de baixa la teva companyia actual. Tu només tries la tarifa.",
+      "primary": "Començar ara",
+      "secondary": "Et truquem gratis"
+    }
+  },
+  "plans": {
+    "page": {
+      "eyebrow": "Plans",
+      "title": "Tarifes de {category}",
+      "allTitle": "Totes les tarifes",
+      "subtitle": "Compara les quotes i contracta en línia en menys de cinc minuts.",
+      "faqTitle": "Preguntes freqüents",
+      "faq": {
+        "portability": {
+          "question": "Quant triga la portabilitat?",
+          "answer": "Entre 24 i 48 hores laborables. Mantens el teu número i no et quedes sense servei en cap moment."
+        },
+        "commitment": {
+          "question": "Hi ha permanència?",
+          "answer": "No. Pots donar-te de baixa quan vulguis sense penalització ni cost de cancel·lació."
+        },
+        "install": {
+          "question": "Qui fa la instal·lació de la fibra?",
+          "answer": "Un tècnic propi de Siecom, en una franja horària que tries tu. La instal·lació i el router són gratuïts."
+        },
+        "change": {
+          "question": "Puc canviar de tarifa més endavant?",
+          "answer": "Sí, des de l'àrea de client i amb efecte al següent cicle de facturació. Sense cap cost associat."
+        }
+      }
+    },
+    "features": {
+      "unlimitedCalls": "Trucades il·limitades",
+      "data": "{amount} de dades a 5G",
+      "dataShared": "Dades compartides entre línies",
+      "roaming": "Roaming a la UE inclòs",
+      "esim": "eSIM disponible a l'instant",
+      "speed": "Fibra simètrica de {speed}",
+      "router": "Router Wi-Fi 6 inclòs",
+      "install": "Instal·lació i alta gratuïtes",
+      "ip": "IP fixa opcional",
+      "tv": "Siecom TV amb 60 canals",
+      "landlineIncluded": "Línia fixa inclosa",
+      "minutes": "{amount} minuts a fixos i mòbils",
+      "switchboard": "Centraleta virtual",
+      "numbers": "Fins a {amount} extensions",
+      "support": "Suport prioritari 24/7",
+      "lines": "Fins a {amount} línies mòbils"
+    },
+    "items": {
+      "mobileStart": {
+        "name": "Mòbil Start",
+        "tagline": "Per a qui fa servir el mòbil sense excessos."
+      },
+      "mobileSmart": {
+        "name": "Mòbil Smart",
+        "tagline": "L'equilibri entre dades i preu per al dia a dia."
+      },
+      "mobileTotal": {
+        "name": "Mòbil Total",
+        "tagline": "Dades il·limitades per treballar des de qualsevol lloc."
+      },
+      "fiber300": {
+        "name": "Fibra 300",
+        "tagline": "Ideal per a pisos i teletreball puntual."
+      },
+      "fiber600": {
+        "name": "Fibra 600",
+        "tagline": "La més contractada per a famílies connectades."
+      },
+      "fiber1000": {
+        "name": "Fibra 1 Gb",
+        "tagline": "Màxima velocitat per a gaming i streaming 4K."
+      },
+      "fixBasic": {
+        "name": "Fix Bàsic",
+        "tagline": "La línia de tota la vida, amb número propi."
+      },
+      "fixPro": {
+        "name": "Fix Pro",
+        "tagline": "Centraleta virtual per a petits negocis."
+      },
+      "fixBusiness": {
+        "name": "Fix Business",
+        "tagline": "Comunicacions per a equips que no poden parar."
+      }
+    }
+  },
+  "company": {
+    "eyebrow": "Siecom Empresa",
+    "title": "Connectivitat per a negocis que no es poden aturar",
+    "subtitle": "Fibra dedicada, centraleta al núvol i flotes mòbils amb un gestor assignat i SLA per escrit.",
+    "cta": "Demana un pressupost",
+    "secondaryCta": "Descarrega el dossier",
+    "servicesTitle": "Serveis per a empresa",
+    "services": {
+      "dedicated": {
+        "title": "Fibra dedicada",
+        "description": "Ample de banda garantit 1:1 amb SLA de disponibilitat del 99,9% i suport prioritari."
+      },
+      "fleet": {
+        "title": "Flotes mòbils",
+        "description": "Línies il·limitades amb dades compartides, control de despesa i alta d'usuaris en un clic."
+      },
+      "cloudPbx": {
+        "title": "Centraleta al núvol",
+        "description": "Extensions, IVR, cues i gravació de trucades. Funciona a l'oficina i en remot."
+      },
+      "security": {
+        "title": "Xarxa i seguretat",
+        "description": "SD-WAN, tallafocs gestionat i VPN entre seus, monitoritzat pel nostre NOC 24/7."
+      }
+    },
+    "statsTitle": "Empreses que ja confien en nosaltres",
+    "stats": {
+      "clients": { "value": "3.200", "label": "Empreses clientes" },
+      "uptime": { "value": "99,9%", "label": "Disponibilitat garantida" },
+      "manager": { "value": "1", "label": "Gestor assignat per compte" }
+    },
+    "formTitle": "Parlem del teu projecte",
+    "formSubtitle": "Deixa'ns les teves dades i t'escrivim en menys de 24 hores laborables.",
+    "form": {
+      "company": "Empresa",
+      "name": "Nom i cognoms",
+      "email": "Correu electrònic",
+      "phone": "Telèfon",
+      "employees": "Nombre de treballadors",
+      "message": "Explica'ns què necessites",
+      "submit": "Enviar sol·licitud",
+      "legal": "En enviar el formulari acceptes la política de privacitat."
+    }
+  },
+  "about": {
+    "eyebrow": "Sobre nosaltres",
+    "title": "Som una teleco de barri amb xarxa de primera",
+    "subtitle": "Vam néixer el 2009 a Girona amb una idea senzilla: donar bon servei i explicar les coses clares.",
+    "storyTitle": "La nostra història",
+    "story": "Vam començar instal·lant fibra en pobles on cap operador volia arribar. Avui connectem 120.000 llars i 3.200 empreses, però mantenim el mateix compromís: xarxa pròpia, atenció local i preus que no canvien quan s'acaba la promoció.",
+    "valuesTitle": "Els nostres valors",
+    "values": {
+      "transparency": {
+        "title": "Transparència",
+        "description": "Preus finals, contractes de dues pàgines i factures que s'entenen a la primera."
+      },
+      "proximity": {
+        "title": "Proximitat",
+        "description": "Oficines a Girona, Barcelona i Lleida, i tècnics que coneixen el territori."
+      },
+      "commitment": {
+        "title": "Compromís",
+        "description": "Invertim el 20% dels beneficis a desplegar fibra en zones rurals."
+      }
+    },
+    "timelineTitle": "El camí fins avui",
+    "timeline": {
+      "y2009": { "year": "2009", "title": "Primers quilòmetres de fibra", "description": "Naixem a Girona com a instal·ladors locals de xarxa." },
+      "y2014": { "year": "2014", "title": "Xarxa mòbil pròpia", "description": "Llancem les primeres tarifes mòbils com a operador virtual." },
+      "y2019": { "year": "2019", "title": "10.000 empreses connectades", "description": "Obrim la divisió Siecom Empresa i el NOC 24/7." },
+      "y2024": { "year": "2024", "title": "Desplegament 5G", "description": "Arribem al 98% de cobertura 5G i estrenem Siecom TV." }
+    },
+    "teamTitle": "L'equip",
+    "teamSubtitle": "Més de 300 persones entre atenció al client, xarxa i camp.",
+    "cta": "Treballa amb nosaltres"
+  },
+  "clientAccess": {
+    "eyebrow": "Àrea privada",
+    "title": "Accés client",
+    "subtitle": "Consulta les teves factures, el consum de dades i gestiona els teus serveis.",
+    "form": {
+      "user": "Usuari o número de telèfon",
+      "userPlaceholder": "600 000 000",
+      "password": "Contrasenya",
+      "passwordPlaceholder": "La teva contrasenya",
+      "remember": "Mantén la sessió iniciada",
+      "forgot": "Has oblidat la contrasenya?",
+      "submit": "Entrar",
+      "noAccount": "Encara no tens compte?",
+      "register": "Registra't"
+    },
+    "helpTitle": "Necessites ajuda?",
+    "help": {
+      "invoices": { "title": "Les teves factures", "description": "Descarrega-les en PDF i consulta l'històric dels últims 24 mesos." },
+      "consumption": { "title": "Consum en temps real", "description": "Mira quantes dades has gastat i amplia el bo si et fa falta." },
+      "support": { "title": "Incidències", "description": "Obre un tiquet i segueix-ne l'estat des del teu mòbil." }
+    }
+  },
+  "footer": {
+    "description": "Operador de fibra, mòbil i telefonia fixa amb xarxa pròpia i atenció local.",
+    "productsTitle": "Productes",
+    "companyTitle": "Companyia",
+    "supportTitle": "Suport",
+    "legalTitle": "Legal",
+    "links": {
+      "coverage": "Consulta la cobertura",
+      "offers": "Ofertes actives",
+      "tv": "Siecom TV",
+      "work": "Treballa amb nosaltres",
+      "press": "Sala de premsa",
+      "blog": "Blog",
+      "help": "Centre d'ajuda",
+      "status": "Estat de la xarxa",
+      "contact": "Contacte",
+      "privacy": "Política de privacitat",
+      "terms": "Condicions del servei",
+      "cookies": "Cookies"
+    },
+    "rights": "© {year} Siecom Telecom S.L. Tots els drets reservats.",
+    "madeIn": "Fet a Catalunya"
+  },
+  "notFound": {
+    "title": "Pàgina no trobada",
+    "subtitle": "L'enllaç que has seguit no existeix o s'ha mogut.",
+    "cta": "Tornar a l'inici"
+  }
+}

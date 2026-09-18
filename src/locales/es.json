@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "name": "Castellano",
+    "shortName": "ES",
+    "htmlLang": "es"
+  },
+  "common": {
+    "brand": "Siecom",
+    "tagline": "Telefonía e internet sin letra pequeña",
+    "currency": "€",
+    "perMonth": "/mes",
+    "vatIncluded": "IVA incluido",
+    "from": "desde",
+    "hire": "Contratar",
+    "seePlans": "Ver planes",
+    "contact": "Contáctanos",
+    "callUs": "Llámanos",
+    "skipToContent": "Saltar al contenido principal",
+    "loading": "Cargando…"
+  },
+  "nav": {
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "mainNavigation": "Navegación principal",
+    "plans": "Planes",
+    "plansIntro": "Elige lo que necesitas: móvil, fibra o fijo. Todo sin permanencia.",
+    "company": "Empresa",
+    "about": "Sobre nosotros",
+    "clientAccess": "Acceso cliente",
+    "language": "Idioma",
+    "selectLanguage": "Selecciona el idioma"
+  },
+  "categories": {
+    "mobile": {
+      "label": "Telefonía móvil",
+      "short": "Móvil",
+      "description": "Datos y llamadas ilimitadas con cobertura 5G."
+    },
+    "internet": {
+      "label": "Internet fibra",
+      "short": "Internet",
+      "description": "Fibra simétrica hasta 1 Gb con router Wi-Fi 6."
+    },
+    "landline": {
+      "label": "Telefonía fija",
+      "short": "Fijo",
+      "description": "Línea fija con centralita virtual y número propio."
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Nueva tarifa 5G",
+      "title": "Conéctalo todo con una sola factura",
+      "titleAccent": "sin permanencia",
+      "subtitle": "Fibra simétrica, móvil ilimitado y telefonía fija con atención al cliente de verdad. Cambia de compañía en 24 horas y sin costes de alta.",
+      "ctaPrimary": "Ver precios",
+      "ctaSecondary": "Habla con nosotros",
+      "note": "Portabilidad gratuita · Sin permanencia · Soporte 24/7",
+      "cardTitle": "Tu paquete",
+      "cardPlan": "Fibra 600 Mb + Móvil ilimitado",
+      "cardPrice": "39,90",
+      "cardFootnote": "Precio para siempre, no es promoción",
+      "stats": {
+        "coverage": { "value": "98%", "label": "Cobertura 5G en Cataluña" },
+        "clients": { "value": "120.000", "label": "Clientes conectados" },
+        "support": { "value": "< 2 min", "label": "Tiempo medio de espera" }
+      }
+    },
+    "pricing": {
+      "eyebrow": "Tarifas",
+      "title": "Cuotas claras, cada mes igual",
+      "subtitle": "Sin costes ocultos ni subidas al año. Elige la categoría y compara las cuotas.",
+      "billingMonthly": "Pago mensual",
+      "billingAnnual": "Pago anual",
+      "billingSaving": "Ahorra un {percent}%",
+      "popular": "El más contratado",
+      "includes": "Incluye",
+      "cta": "Lo quiero",
+      "setupFee": "Alta gratuita",
+      "noCommitment": "Sin permanencia",
+      "compare": "Compara todas las tarifas",
+      "helper": "Todos los precios mostrados son {vat} e incluyen el alquiler de equipos."
+    },
+    "features": {
+      "eyebrow": "Por qué Siecom",
+      "title": "Una compañía que hace lo que dice",
+      "subtitle": "Hacemos las cosas simples: precio estable, contratos cortos y personas al otro lado del teléfono.",
+      "items": {
+        "price": {
+          "title": "Precio para siempre",
+          "description": "Lo que contratas es lo que pagas. No aplicamos subidas automáticas ni promociones que caducan."
+        },
+        "support": {
+          "title": "Soporte local 24/7",
+          "description": "Equipo técnico propio en Cataluña. Sin robots ni colas interminables: respondemos en menos de dos minutos."
+        },
+        "network": {
+          "title": "Red propia y 5G",
+          "description": "Fibra simétrica y cobertura móvil 5G en el 98% del territorio, con backup 4G incluido."
+        },
+        "flexible": {
+          "title": "Flexibilidad total",
+          "description": "Sube, baja o cancela tu plan cuando quieras desde el área de cliente. Sin llamadas ni penalizaciones."
+        }
+      }
+    },
+    "cta": {
+      "title": "Hacemos el cambio por ti",
+      "subtitle": "Nos encargamos de la portabilidad y de dar de baja tu compañía actual. Tú solo eliges la tarifa.",
+      "primary": "Empezar ahora",
+      "secondary": "Te llamamos gratis"
+    }
+  },
+  "plans": {
+    "page": {
+      "eyebrow": "Planes",
+      "title": "Tarifas de {category}",
+      "allTitle": "Todas las tarifas",
+      "subtitle": "Compara las cuotas y contrata online en menos de cinco minutos.",
+      "faqTitle": "Preguntas frecuentes",
+      "faq": {
+        "portability": {
+          "question": "¿Cuánto tarda la portabilidad?",
+          "answer": "Entre 24 y 48 horas laborables. Mantienes tu número y no te quedas sin servicio en ningún momento."
+        },
+        "commitment": {
+          "question": "¿Hay permanencia?",
+          "answer": "No. Puedes darte de baja cuando quieras sin penalización ni coste de cancelación."
+        },
+        "install": {
+          "question": "¿Quién hace la instalación de la fibra?",
+          "answer": "Un técnico propio de Siecom, en una franja horaria que eliges tú. La instalación y el router son gratuitos."
+        },
+        "change": {
+          "question": "¿Puedo cambiar de tarifa más adelante?",
+          "answer": "Sí, desde el área de cliente y con efecto en el siguiente ciclo de facturación. Sin ningún coste asociado."
+        }
+      }
+    },
+    "features": {
+      "unlimitedCalls": "Llamadas ilimitadas",
+      "data": "{amount} de datos en 5G",
+      "dataShared": "Datos compartidos entre líneas",
+      "roaming": "Roaming en la UE incluido",
+      "esim": "eSIM disponible al instante",
+      "speed": "Fibra simétrica de {speed}",
+      "router": "Router Wi-Fi 6 incluido",
+      "install": "Instalación y alta gratuitas",
+      "ip": "IP fija opcional",
+      "tv": "Siecom TV con 60 canales",
+      "landlineIncluded": "Línea fija incluida",
+      "minutes": "{amount} minutos a fijos y móviles",
+      "switchboard": "Centralita virtual",
+      "numbers": "Hasta {amount} extensiones",
+      "support": "Soporte prioritario 24/7",
+      "lines": "Hasta {amount} líneas móviles"
+    },
+    "items": {
+      "mobileStart": {
+        "name": "Móvil Start",
+        "tagline": "Para quien usa el móvil sin excesos."
+      },
+      "mobileSmart": {
+        "name": "Móvil Smart",
+        "tagline": "El equilibrio entre datos y precio para el día a día."
+      },
+      "mobileTotal": {
+        "name": "Móvil Total",
+        "tagline": "Datos ilimitados para trabajar desde cualquier sitio."
+      },
+      "fiber300": {
+        "name": "Fibra 300",
+        "tagline": "Ideal para pisos y teletrabajo puntual."
+      },
+      "fiber600": {
+        "name": "Fibra 600",
+        "tagline": "La más contratada para familias conectadas."
+      },
+      "fiber1000": {
+        "name": "Fibra 1 Gb",
+        "tagline": "Máxima velocidad para gaming y streaming 4K."
+      },
+      "fixBasic": {
+        "name": "Fijo Básico",
+        "tagline": "La línea de toda la vida, con número propio."
+      },
+      "fixPro": {
+        "name": "Fijo Pro",
+        "tagline": "Centralita virtual para pequeños negocios."
+      },
+      "fixBusiness": {
+        "name": "Fijo Business",
+        "tagline": "Comunicaciones para equipos que no pueden parar."
+      }
+    }
+  },
+  "company": {
+    "eyebrow": "Siecom Empresa",
+    "title": "Conectividad para negocios que no se pueden parar",
+    "subtitle": "Fibra dedicada, centralita en la nube y flotas móviles con un gestor asignado y SLA por escrito.",
+    "cta": "Pide un presupuesto",
+    "secondaryCta": "Descarga el dosier",
+    "servicesTitle": "Servicios para empresa",
+    "services": {
+      "dedicated": {
+        "title": "Fibra dedicada",
+        "description": "Ancho de banda garantizado 1:1 con SLA de disponibilidad del 99,9% y soporte prioritario."
+      },
+      "fleet": {
+        "title": "Flotas móviles",
+        "description": "Líneas ilimitadas con datos compartidos, control de gasto y alta de usuarios en un clic."
+      },
+      "cloudPbx": {
+        "title": "Centralita en la nube",
+        "description": "Extensiones, IVR, colas y grabación de llamadas. Funciona en la oficina y en remoto."
+      },
+      "security": {
+        "title": "Red y seguridad",
+        "description": "SD-WAN, firewall gestionado y VPN entre sedes, monitorizado por nuestro NOC 24/7."
+      }
+    },
+    "statsTitle": "Empresas que ya confían en nosotros",
+    "stats": {
+      "clients": { "value": "3.200", "label": "Empresas clientes" },
+      "uptime": { "value": "99,9%", "label": "Disponibilidad garantizada" },
+      "manager": { "value": "1", "label": "Gestor asignado por cuenta" }
+    },
+    "formTitle": "Hablemos de tu proyecto",
+    "formSubtitle": "Déjanos tus datos y te escribimos en menos de 24 horas laborables.",
+    "form": {
+      "company": "Empresa",
+      "name": "Nombre y apellidos",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "employees": "Número de trabajadores",
+      "message": "Cuéntanos qué necesitas",
+      "submit": "Enviar solicitud",
+      "legal": "Al enviar el formulario aceptas la política de privacidad."
+    }
+  },
+  "about": {
+    "eyebrow": "Sobre nosotros",
+    "title": "Somos una teleco de barrio con red de primera",
+    "subtitle": "Nacimos en 2009 en Girona con una idea sencilla: dar buen servicio y explicar las cosas claras.",
+    "storyTitle": "Nuestra historia",
+    "story": "Empezamos instalando fibra en pueblos donde ningún operador quería llegar. Hoy conectamos 120.000 hogares y 3.200 empresas, pero mantenemos el mismo compromiso: red propia, atención local y precios que no cambian cuando se acaba la promoción.",
+    "valuesTitle": "Nuestros valores",
+    "values": {
+      "transparency": {
+        "title": "Transparencia",
+        "description": "Precios finales, contratos de dos páginas y facturas que se entienden a la primera."
+      },
+      "proximity": {
+        "title": "Proximidad",
+        "description": "Oficinas en Girona, Barcelona y Lleida, y técnicos que conocen el territorio."
+      },
+      "commitment": {
+        "title": "Compromiso",
+        "description": "Invertimos el 20% de los beneficios en desplegar fibra en zonas rurales."
+      }
+    },
+    "timelineTitle": "El camino hasta hoy",
+    "timeline": {
+      "y2009": { "year": "2009", "title": "Primeros kilómetros de fibra", "description": "Nacemos en Girona como instaladores locales de red." },
+      "y2014": { "year": "2014", "title": "Red móvil propia", "description": "Lanzamos las primeras tarifas móviles como operador virtual." },
+      "y2019": { "year": "2019", "title": "10.000 empresas conectadas", "description": "Abrimos la división Siecom Empresa y el NOC 24/7." },
+      "y2024": { "year": "2024", "title": "Despliegue 5G", "description": "Llegamos al 98% de cobertura 5G y estrenamos Siecom TV." }
+    },
+    "teamTitle": "El equipo",
+    "teamSubtitle": "Más de 300 personas entre atención al cliente, red y campo.",
+    "cta": "Trabaja con nosotros"
+  },
+  "clientAccess": {
+    "eyebrow": "Área privada",
+    "title": "Acceso cliente",
+    "subtitle": "Consulta tus facturas, el consumo de datos y gestiona tus servicios.",
+    "form": {
+      "user": "Usuario o número de teléfono",
+      "userPlaceholder": "600 000 000",
+      "password": "Contraseña",
+      "passwordPlaceholder": "Tu contraseña",
+      "remember": "Mantener la sesión iniciada",
+      "forgot": "¿Has olvidado la contraseña?",
+      "submit": "Entrar",
+      "noAccount": "¿Aún no tienes cuenta?",
+      "register": "Regístrate"
+    },
+    "helpTitle": "¿Necesitas ayuda?",
+    "help": {
+      "invoices": { "title": "Tus facturas", "description": "Descárgalas en PDF y consulta el histórico de los últimos 24 meses." },
+      "consumption": { "title": "Consumo en tiempo real", "description": "Mira cuántos datos has gastado y amplía el bono si te hace falta." },
+      "support": { "title": "Incidencias", "description": "Abre un ticket y sigue su estado desde tu móvil." }
+    }
+  },
+  "footer": {
+    "description": "Operador de fibra, móvil y telefonía fija con red propia y atención local.",
+    "productsTitle": "Productos",
+    "companyTitle": "Compañía",
+    "supportTitle": "Soporte",
+    "legalTitle": "Legal",
+    "links": {
+      "coverage": "Consulta la cobertura",
+      "offers": "Ofertas activas",
+      "tv": "Siecom TV",
+      "work": "Trabaja con nosotros",
+      "press": "Sala de prensa",
+      "blog": "Blog",
+      "help": "Centro de ayuda",
+      "status": "Estado de la red",
+      "contact": "Contacto",
+      "privacy": "Política de privacidad",
+      "terms": "Condiciones del servicio",
+      "cookies": "Cookies"
+    },
+    "rights": "© {year} Siecom Telecom S.L. Todos los derechos reservados.",
+    "madeIn": "Hecho en Cataluña"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "subtitle": "El enlace que has seguido no existe o se ha movido.",
+    "cta": "Volver al inicio"
+  }
+}
