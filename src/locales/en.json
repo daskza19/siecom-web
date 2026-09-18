@@ -5,7 +5,7 @@
     "htmlLang": "en"
   },
   "common": {
-    "brand": "Siecom",
+    "brand": "SIECOM",
     "tagline": "Phone and internet with no small print",
     "currency": "€",
     "perMonth": "/mo",
@@ -50,31 +50,8 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "New 5G plan",
-      "title": "Connect everything with a single bill",
-      "titleAccent": "no lock-in",
-      "subtitle": "Symmetric fibre, unlimited mobile and landline with support from real people. Switch provider in 24 hours with no setup fees.",
-      "ctaPrimary": "See pricing",
-      "ctaSecondary": "Talk to us",
-      "note": "Free number porting · No lock-in · 24/7 support",
-      "cardTitle": "Your bundle",
-      "cardPlan": "600 Mb fibre + unlimited mobile",
-      "cardPrice": "39.90",
-      "cardFootnote": "Price for life, not an intro offer",
-      "stats": {
-        "coverage": {
-          "value": "98%",
-          "label": "5G coverage in Catalonia"
-        },
-        "clients": {
-          "value": "120,000",
-          "label": "Connected customers"
-        },
-        "support": {
-          "value": "< 2 min",
-          "label": "Average wait time"
-        }
-      }
+      "phrase": "Internet, landline and mobile telephony.",
+      "scroll": "Explore"
     },
     "pricing": {
       "eyebrow": "Pricing",

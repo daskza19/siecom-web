@@ -5,7 +5,7 @@
     "htmlLang": "es"
   },
   "common": {
-    "brand": "Siecom",
+    "brand": "SIECOM",
     "tagline": "Telefonía e internet sin letra pequeña",
     "currency": "€",
     "perMonth": "/mes",
@@ -50,31 +50,8 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "Nueva tarifa 5G",
-      "title": "Conéctalo todo con una sola factura",
-      "titleAccent": "sin permanencia",
-      "subtitle": "Fibra simétrica, móvil ilimitado y telefonía fija con atención al cliente de verdad. Cambia de compañía en 24 horas y sin costes de alta.",
-      "ctaPrimary": "Ver precios",
-      "ctaSecondary": "Habla con nosotros",
-      "note": "Portabilidad gratuita · Sin permanencia · Soporte 24/7",
-      "cardTitle": "Tu paquete",
-      "cardPlan": "Fibra 600 Mb + Móvil ilimitado",
-      "cardPrice": "39,90",
-      "cardFootnote": "Precio para siempre, no es promoción",
-      "stats": {
-        "coverage": {
-          "value": "98%",
-          "label": "Cobertura 5G en Cataluña"
-        },
-        "clients": {
-          "value": "120.000",
-          "label": "Clientes conectados"
-        },
-        "support": {
-          "value": "< 2 min",
-          "label": "Tiempo medio de espera"
-        }
-      }
+      "phrase": "Internet, telefonía fija y móvil.",
+      "scroll": "Descubre"
     },
     "pricing": {
       "eyebrow": "Tarifas",
